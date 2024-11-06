@@ -1,0 +1,113 @@
+* {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(woman-6521824.jpg) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(60, 61, 61);
+}
+
+.left {
+    border: 3px solid rgb(60, 61, 61);
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+
+}
+
+.left img {
+    background-color: aliceblue;
+    width: 50px;
+}
+
+.centre {
+    border: 3px solid rgb(60, 61, 61);
+    display: block;
+    width: 43%;
+    margin: 20px 300px;
+    position: sticky;
+
+
+}
+
+.right {
+    /* border: 6px solid rgb(60, 61, 61); */
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+.navbar li a:hover {
+    color: rgb(97, 97, 97);
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+}
+
+.btn {
+    margin: 8px 8px;
+    background-color: rgb(177, 177, 177);
+    color: black;
+    font-weight: bold;
+    padding: 3px 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container {
+    border: 3px solid black;
+    margin: 45px 300px;
+    padding: 150px 70px;
+    width: 33%;
+    border-radius: 10px;
+
+}
+.container h3{
+    background-color: rgba(28, 28, 27, 0.557);
+    color: azure;
+    font-size: 35px;
+    background-size: cover ;
+    text-align: center;
+}
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 359px;
+    padding: 1px 68px;
+    border: 2px solid grey;
+    font-size: 19px;
+    margin: 4px -2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn2{
+    display: block;
+    width: auto;
+    margin: auto;
+}
